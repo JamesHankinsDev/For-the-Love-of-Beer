@@ -1,0 +1,37 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "breweries",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "stateCode", "order": "ASCENDING" },
+        { "fieldPath": "name", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "breweries",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "breweryType", "order": "ASCENDING" },
+        { "fieldPath": "visitCount", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "breweries",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "geohash", "order": "ASCENDING" },
+        { "fieldPath": "visitCount", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "stamps",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "breweryId", "order": "ASCENDING" },
+        { "fieldPath": "stampedAt", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

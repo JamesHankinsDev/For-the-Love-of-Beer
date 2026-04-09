@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "for-the-love-of-beer-86bde"
+  },
+  "targets": {
+    "for-the-love-of-beer-86bde": {
+      "storage": {
+        "default": [
+          "for-the-love-of-beer-86bde.firebasestorage.app"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

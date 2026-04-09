@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "For the Love of Beer",
+    "slug": "for-the-love-of-beer",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "ftlob",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#D4A034"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ftlob.mobile",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to verify brewery check-ins and show nearby breweries."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#D4A034"
+      },
+      "package": "com.ftlob.mobile",
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "plugins": ["expo-router", "expo-location"]
+  }
+}
